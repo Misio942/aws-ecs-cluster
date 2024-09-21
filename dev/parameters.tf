@@ -5,7 +5,7 @@ resource "aws_ssm_parameter" "lb_arn" {
 }
 
 resource "aws_ssm_parameter" "lb_listener" {
-  name  = "personal/ecs/lb/listerner"
+  name  = "/personal/ecs/lb/listerner"
   value = aws_lb_listener.main.arn
   type  = "String"
 }
