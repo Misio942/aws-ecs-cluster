@@ -3,7 +3,7 @@
 variable "project_name" {
   description = "O nome do projeto, usado para nomear recursos no escopo deste Terraform."
   type        = string
-  default     = "ecs-cluster"
+  default     = "cluster"
 }
 
 variable "region" {
